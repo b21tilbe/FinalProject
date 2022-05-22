@@ -4,29 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_centerHorizontal="true"
     tools:context=".activity_second">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        android:text="About Us"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="100dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius bibendum magna. Nam et nisi ut ligula imperdiet finibus. Aliquam in eros sit amet nunc ornare pulvinar. Donec urna dui, dictum vitae erat in, sollicitudin pretium ante. Nam varius tortor eget imperdiet consectetur. Integer quis mauris id tellus molestie tempus. Vivamus venenatis venenatis hendrerit. Pellentesque malesuada cursus dui, ut egestas justo accumsan sed. Morbi magna urna, convallis a semper nec, gravida id velit. Maecenas cursus pulvinar nunc et rutrum. Vivamus mi nunc, porttitor nec molestie non, tincidunt ut leo. Integer placerat aliquam elit, non tristique erat aliquam in. Mauris id ante vitae lectus luctus lobortis non a ligula. Nunc vel porttitor metus. Praesent sit amet tempor libero."
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/close_second_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Close second activity"
         android:layout_marginBottom="30dp"
+        android:text="Back to main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintVertical_bias="0.981" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
