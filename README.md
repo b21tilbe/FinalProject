@@ -30,7 +30,7 @@ cupcakeList = new ArrayList<Cupcake>();
         recyclerView.setAdapter(adapter);
 ```
 
-En about-sida har även skapats till appen där man kan läsa mer om syftet för applikationen. Detta är gjorts genom att en till activity har skapats vid namn "activity_second". Både activity_main och activity_second har sedan blivit ihopkopplade med en knapp. Denna knapp tar användaren från en activity till en annan sömlöst.
+En about-sida har även skapats till appen där man kan läsa mer om syftet för applikationen. Detta har varit möjligt genom att en till activity har skapats vid namn "activity_second". Både activity_main och activity_second har sedan blivit ihopkopplade med en knapp. Denna knapp tar användaren från en activity till en annan sömlöst.
 Nedan kan kod läsas om hur en av knapparna har skapats i activity_second filen:
 
 ```
