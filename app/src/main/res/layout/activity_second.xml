@@ -40,7 +40,7 @@
         android:layout_marginTop="124dp"
         android:padding="5dp"
         android:elevation="2dp"
-        android:text="In this app you can read more about pastries and how to make them! Knowledge, happiness and recipes are the three things we value the most."
+        android:text="In this app you can read more about pastries and how to make them! Knowledge, happiness and recipes are the three things we value the most. If you love pastries, you've come to the right place!"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
